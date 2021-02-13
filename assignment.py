@@ -1,4 +1,7 @@
-for i in range(1, 21):
-    if i % 5 == 0:
-        print(i)
-        
+def odd(a):
+    for i in a:
+        if not i % 2 == 0:
+            print(i)
+    
+a = [1,  2, 3, 5, 8, 13, 21, 34, 55, 89]
+odd(a)
