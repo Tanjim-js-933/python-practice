@@ -1,3 +1,4 @@
-s1 = "Bangladesh"
-s_cap = s1.capitalize()
-print(s_cap)
+str = 'I  am  a  programmer'
+words = str.split()
+for word in words:
+    print(words)
